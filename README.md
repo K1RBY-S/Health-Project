@@ -54,5 +54,3 @@ The goal of the project was not to optimize for maximum model performance, but t
 - Model performance limitations are driven more by data characteristics than modeling deficiencies.
 
 ---
-
-## Repository Structure
