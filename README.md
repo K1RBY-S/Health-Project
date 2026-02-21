@@ -5,14 +5,12 @@ This project explores whether lifestyle behaviors (fast-food consumption frequen
 
 The goal of the project was not to optimize for maximum model performance, but to evaluate whether commonly assumed behavioral indicators meaningfully predict health outcomes.
 
----
 
 ## Data
 - **Source:** Kaggle (structured dataset combining synthetic and real-world patterns)
 - **Observations:** Individual-level lifestyle and health attributes
 - **Target Variable:** Binary BMI classification (BMI > 25)
-  
----
+
 
 ## Methodology
 1. **Data Cleaning**
@@ -35,7 +33,6 @@ The goal of the project was not to optimize for maximum model performance, but t
    - Precision, Recall, F1-score
    - ROC-AUC
 
----
 
 ## Results Summary
 - Logistic Regression demonstrated the best generalization performance on unseen data.
@@ -43,11 +40,9 @@ The goal of the project was not to optimize for maximum model performance, but t
 - ROC-AUC scores near 0.5 suggest limited separability between classes.
 - Results indicate that lifestyle behavioral factors alone may be insufficient for reliably classifying individual health outcomes.
 
----
 
 ## Key Takeaways
 - Higher model complexity did not improve generalization.
 - Behavioral features showed substantial overlap across BMI classes.
-- Model performance limitations are driven more by data characteristics than modeling deficiencies.
+- Model performance limitations are driven more by data characteristics.
 
----
