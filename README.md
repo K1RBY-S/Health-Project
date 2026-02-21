@@ -11,10 +11,7 @@ The goal of the project was not to optimize for maximum model performance, but t
 - **Source:** Kaggle (structured dataset combining synthetic and real-world patterns)
 - **Observations:** Individual-level lifestyle and health attributes
 - **Target Variable:** Binary BMI classification (BMI > 25)
-
-> Note: The full dataset may not be included in this repository due to dataset licensing restrictions.  
-> If needed, download the dataset from Kaggle and place it in the project root as `fast_food.csv`.
-
+  
 ---
 
 ## Methodology
